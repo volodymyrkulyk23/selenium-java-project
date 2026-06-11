@@ -46,7 +46,7 @@ jobs:
         run: |
           mvn clean test
       - name: Level CI Accessibility Analysis
-        uses: levelaccess/level-ci@dev
+        uses: levelaccess/level-ci@main
         with:
           config_path: "./level-ci/level-ci.config.ts"
         env:
