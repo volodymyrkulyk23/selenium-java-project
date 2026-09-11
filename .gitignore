@@ -12,7 +12,7 @@ target/
 *.iml
 *.ipr
 node_modules
-level-ci-reports
+level-ci/level-ci-reports
 .idea
 
 ### Eclipse ###
