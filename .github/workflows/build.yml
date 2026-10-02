@@ -53,4 +53,4 @@ jobs:
           commit_hash: ${{ github.sha }}
           config_path: "./level-ci/level-ci.config.ts"
         env:
-          LEVEL_CI_TOKEN: ${{ secrets.LEVEL_CI_TOKEN }}
+          LEVEL_CI_TOKEN: ${{ secrets.LEVEL_CI_TOKEN }} 
