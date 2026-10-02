@@ -48,7 +48,7 @@ jobs:
       - name: Level CI Accessibility Analysis
         uses: levelaccess/level-ci@dev
         with:
-          secondary_repository_key: selenium-java-project-7d48
+          secondary_repository_key: 
           branch: test-branch
           commit_hash: ${{ github.sha }}
           config_path: "./level-ci/level-ci.config.ts"
