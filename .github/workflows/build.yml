@@ -49,9 +49,9 @@ jobs:
         uses: levelaccess/level-ci@dev
         with:
           secondary_repository_key: selenium-java-project-7d48
-          pull_request: PR7
+          pull_request: "1"
           branch: test-branch
-          commit_hash: 2958246794d8c967d7b29648e0f9258ce73aeefb
+          commit_hash: ${{ github.sha }}
           config_path: "./level-ci/level-ci.config.ts"
         env:
           LEVEL_CI_TOKEN: ${{ secrets.LEVEL_CI_TOKEN }} 
