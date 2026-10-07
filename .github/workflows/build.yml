@@ -46,9 +46,9 @@ jobs:
         run: |
           mvn clean test
       - name: Level CI Accessibility Analysis
-        uses: levelaccess/level-ci@dev
+        uses: levelaccess/level-ci@qa
         with:
-          secondary_repository_key: selenium-java-project-7d48
+          secondary_repository_key: selenium-java-project-08c5
           branch: main
           commit_hash: ${{ github.sha }}
           config_path: "./level-ci/level-ci.config.ts"
