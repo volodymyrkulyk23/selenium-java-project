@@ -1,14 +1,13 @@
 import type { Config } from "@level-ci/cli";
 export default {
- organization: "volodymyr-kulyk-40-userway-org-lando",
+ organization: "volodymyr-kulyk-32-userway-org-podss",
  project: "welfare-project-ca-6723",
  token: process.env.LEVEL_CI_TOKEN,
- server:'https://dev.uw.ci.levelaccess.io/',
+ server:'https://staging.uw.ci.levelaccess.io/',
  override: {
     "test-branch": {
-      targetBranch: "main",
       retention: "long",
-      scope: "overall",
+      scope: "delta",
     },
   },
  reportPaths: ['./level-ci/level-ci-reports']
