@@ -4,5 +4,12 @@ export default {
  project: "welfare-project-ca-6723",
  token: process.env.LEVEL_CI_TOKEN,
  server:'https://staging.uw.ci.levelaccess.io/',
+ override: {
+    "br10": {
+      targetBranch: "main",
+      retention: "long",
+      scope: "delta",
+    },
+  },
  reportPaths: ['./level-ci/level-ci-reports']
 } satisfies Config; 
