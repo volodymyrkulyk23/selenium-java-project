@@ -5,9 +5,9 @@ export default {
  token: process.env.LEVEL_CI_TOKEN,
  server:'https://staging.uw.ci.levelaccess.io/',
  override: {
-    "br10": {
-      targetBranch: "main",
-      retention: "long",
+    "br12": {
+      targetBranch: "br10",
+      retention: "short",
       scope: "delta",
     },
   },
