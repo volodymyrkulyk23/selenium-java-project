@@ -49,7 +49,7 @@ jobs:
         uses: levelaccess/level-ci@qa
         with:
           secondary_repository_key: selenium-java-project-08c5
-          branch: main
+          branch: br10
           commit_hash: ${{ github.sha }}
           config_path: "./level-ci/level-ci.config.ts"
         env:
