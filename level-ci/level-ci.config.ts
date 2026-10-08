@@ -6,7 +6,7 @@ export default {
  server:'https://staging.uw.ci.levelaccess.io/',
  override: {
     "br10": {
-      targetBranch: "main",
+      targetBranch: "br10",
       retention: "long",
       scope: "delta",
     },
